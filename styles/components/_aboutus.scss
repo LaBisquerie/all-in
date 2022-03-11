@@ -1,0 +1,35 @@
+.aboutus-content {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+
+  @include media-breakpoint-up(lg) {
+    margin-top: 0;
+  }
+}
+
+.aboutus-subtitle {
+  font-size: 1rem;
+  color: $black;
+  margin-bottom: 0;
+}
+
+.aboutus-title {
+  margin-top: 0;
+  color: $red;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.aboutus-description {
+  font-size: 1rem;
+}
+
+.aboutus-photo {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+
+  @include media-breakpoint-up(lg) {
+    justify-content: baseline;
+  }
+}

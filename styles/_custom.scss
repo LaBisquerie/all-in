@@ -1,0 +1,17 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "~react-datepicker/dist/react-datepicker.css";
+
+@import './base';
+@import './variables';
+
+// Layout
+@import './layout/header';
+
+// Components
+@import './components/ourservices';
+@import './components//aboutus';
+@import './components/banner';
+@import './components/card';
+
+// Pages
+@import './pages/search';
